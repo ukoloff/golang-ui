@@ -7,6 +7,7 @@ require (
 	github.com/VladimirMarkelov/clui v1.2.0
 	github.com/atotto/clipboard v0.1.2 // indirect
 	github.com/huandu/xstrings v1.2.0 // indirect
+	github.com/jroimartin/gocui v0.4.0
 	github.com/lxn/walk v0.0.0-20190619151032-86d8802c197a
 	github.com/lxn/win v0.0.0-20190618153233-9c04a4e8d0b8 // indirect
 	github.com/mattn/go-runewidth v0.0.4 // indirect
