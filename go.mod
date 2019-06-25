@@ -3,6 +3,7 @@ module github.com/ukoloff/golang-ui
 go 1.12
 
 require (
+	fyne.io/fyne v1.0.1
 	github.com/VladimirMarkelov/clui v1.2.0
 	github.com/atotto/clipboard v0.1.2 // indirect
 	github.com/huandu/xstrings v1.2.0 // indirect
