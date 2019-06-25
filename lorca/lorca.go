@@ -2,11 +2,18 @@ package main
 
 import (
 	"fmt"
+	"net/url"
+
 	"github.com/zserge/lorca"
 )
 
 func main() {
-	ui, _ := lorca.New("", "", 480, 320)
+	ui, _ := lorca.New("data:text/html,"+url.PathEscape(`
+	<html>
+		<head><title>Hello</title></head>
+		<body><h1>Hello, world!</h1></body>
+	</html>
+	`), "", 480, 320)
 	defer ui.Close()
 
 	// Bind Go function to be available in JS. Go function may be long-running and
