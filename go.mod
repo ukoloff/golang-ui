@@ -10,6 +10,7 @@ require (
 	github.com/jroimartin/gocui v0.4.0
 	github.com/lxn/walk v0.0.0-20190619151032-86d8802c197a
 	github.com/lxn/win v0.0.0-20190618153233-9c04a4e8d0b8 // indirect
+	github.com/marcusolsson/tui-go v0.4.0
 	github.com/mattn/go-runewidth v0.0.4 // indirect
 	github.com/nsf/termbox-go v0.0.0-20190624072549-eeb6cd0a1762 // indirect
 	github.com/wailsapp/wails v0.16.0 // indirect
